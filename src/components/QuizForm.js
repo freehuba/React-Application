@@ -60,7 +60,7 @@ const QuizForm = () => {
         
         try {
             // Send data to the server
-            const response = await fetch('http://192.168.0.111:8080/api/submit', {
+            const response = await fetch('http://172.29.254.19/api/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
