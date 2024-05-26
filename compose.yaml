@@ -1,0 +1,6 @@
+services:
+  img:
+    build: .
+    container_name: baic-container
+    ports:
+      - 5500:3000
